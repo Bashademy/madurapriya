@@ -9,20 +9,21 @@
       background-color: #f0f0f0;
     }
 
-    .card-container {
+    /*.card-container {
       display: flex;
       justify-content: space-between;
-      max-width: 900px;
-    }
+      width: 100%;
+    }*/
 
-    .card {
-      flex-basis: 30%;
+ /*   .card {
+      flex: 25%;
+      flex-basis: 25%;
       background-color: #fff;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
-    }
+    }*/
 
     .card:hover {
       transform: translateY(-5px);
