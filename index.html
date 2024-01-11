@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
@@ -379,6 +380,20 @@ body, html {
 </div>
 
 
+<!-- our client logos carousal  -->
+<div class="logos">
+      <div class="logos-slide">
+        <img src="../test/3m.svg" />
+        <img src="../test/barstool-store.svg" />
+        <img src="../test/budweiser.svg" />
+        <img src="../test/buzzfeed.svg" />
+        <img src="../test/forbes.svg" />
+        <img src="../test/macys.svg" />
+        <img src="../test/menshealth.svg" />
+        <img src="../test/mrbeast.svg" />
+      </div>
+</div>
+
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
@@ -444,7 +459,12 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 
+// client logo carousal section
+var copy = document.querySelector(".logos-slide").cloneNode(true);
+document.querySelector(".logos").appendChild(copy);
+
 </script>
+
 
 </body>
 </html>
